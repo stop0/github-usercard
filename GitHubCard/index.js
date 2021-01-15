@@ -8,8 +8,8 @@ axios.get('https://api.github.com/users/stop0')
     .then( response => {
         console.log(response.data['login'])
     })
-    .catch( err => {
-      console.log(err)
+    .catch( error => {
+      console.log(error)
     })
 
 
